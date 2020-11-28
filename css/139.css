@@ -1,0 +1,224 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+}
+.widget-title-wrap {
+  display: block;
+  text-align: left;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 25px;
+}
+.widget-title {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: -2px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f8c12c;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background: transparent;
+  color: #272727;
+  transition: .4s;
+}
+a:hover {
+  text-decoration: none;
+}
+h4.widget-title {
+  font-size: 1.272em;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.module-6,
+.module-7,
+.module-9 {
+  margin-bottom: 50px;
+}
+.module-6 ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -5px;
+}
+.module-6 li {
+  padding: 2px 0px;
+}
+.module-6 li:first-child {
+  padding-top: 0px;
+}
+.module-6 span {
+  font-size: 75%;
+  border: 2px solid #eee;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+.module-6 li.cat-item:hover a {
+  transition: .4s;
+  text-decoration: none;
+  color: #f8c12c;
+}
+.module-6 li.cat-item:hover span {
+  transition: .4s;
+  border-color: #f8c12c;
+  color: #f8c12c;
+}
+.module-7 ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -5px;
+}
+.module-7 ul li {
+  list-style: none;
+  clear: both;
+  padding: 5px 0px;
+}
+.module-7 .grey {
+  margin-top: 10px;
+  font-size: 90%;
+  line-height: 1.5;
+  font-style: italic;
+  opacity: 0.5;
+  display: inline-block;
+}
+.module-7 .grey:hover {
+  color: #f8c12c;
+}
+.module-7 .widget-text {
+  display: inline-block;
+  float: left;
+  width: calc(35%);
+}
+.module-7 .widget-text p {
+  margin-bottom: 0px;
+  margin-top: 7px;
+}
+.module-7 .widget-text i {
+  margin-right: 5px;
+}
+.module-7 .widget-text p.small {
+  margin: 0px;
+  color: #272727;
+  font-style: italic;
+  font-size: 80%;
+  line-height: 1.2;
+}
+.module-7 .widget-image-thumb {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.module-9 .travelog-form h4 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 1.272em;
+}
+.module-9 .subscribe {
+  position: static;
+  display: block;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  background: #202020;
+  color: #fff;
+  text-transform: uppercase;
+}
+.module-9 .subscribe:hover {
+  transition: .4s;
+  background-color: #f8c12c;
+}
+.module-9 input.form-control.email {
+  min-height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+.module-10 .pagination {
+  display: block;
+  line-height: 1.42857143;
+  text-align: center;
+}
+.module-10 .pagination span {
+  padding: 6px 12px;
+  border-radius: 2px;
+  background: transparent;
+  color: #202020;
+  display: inline-block;
+  white-space: normal;
+  border: 2px solid #202020;
+  font-size: 85%;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+.module-10 .pagination .current {
+  background: #f8c12c;
+  color: #202020;
+  border-color: #f8c12c;
+}
+.module-10 .pagination a {
+  padding: 6px 12px;
+  border-radius: 2px;
+  background: transparent;
+  color: #202020;
+  display: inline-block;
+  white-space: normal;
+  border: 2px solid #eee;
+  font-size: 85%;
+  text-transform: uppercase;
+  box-shadow: none;
+}
+.module-1 .active a.nav-link {
+  color: #f8c12c !important;
+}
+.module-1 li:hover a.nav-link:hover {
+  color: #f8c12c;
+}
+.module-1 li:hover i {
+  color: #f8c12c;
+}
+.module-1 .nav-item a.nav-link {
+  font-weight: 600;
+  color: #272727;
+  font-size: 14px;
+}
+.module-1 .search {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.module-33 .search-bar {
+  background: #202020;
+}
+.module-33 .search-bar .travelog-form {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+.module-33 .search-bar .form-control {
+  border: none;
+  color: #fff !important;
+  font-size: 13px;
+  line-height: 30px;
+  color: #505050;
+  padding: 10px;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  background: #202020;
+  border-radius: none;
+}
